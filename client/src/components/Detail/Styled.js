@@ -9,7 +9,7 @@ color: white;
 font-family: 'Josefin Sans', sans-serif;
 font-size: 20px;
 text-shadow: 3px 3px 3px black;
-height: 100vh;
+height: 125vh;
 
 .detailback{
     padding-top: 100px;

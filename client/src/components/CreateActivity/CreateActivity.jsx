@@ -174,7 +174,7 @@ export default function CreateActivity(){
                         {input.country?.map(el =>
                             <div key={el}>
                                 <p>{el}</p>
-                                <button onClick={() => handleDelete(el)}>x</button>
+                                <button className="deleteBut" onClick={() => handleDelete(el)}>x</button>
                             </div>
                         )}
                         </div>

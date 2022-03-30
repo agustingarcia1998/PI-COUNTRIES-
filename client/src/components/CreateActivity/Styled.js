@@ -9,7 +9,7 @@ color: white;
 font-family: 'Josefin Sans', sans-serif;
 font-size: 20px;
 text-shadow: 3px 3px 3px black;
-height: 120vh;
+height: 125vh;
 
 .btn-confirm{
     background-color: rgb(66, 65, 65);
@@ -74,7 +74,7 @@ h1{
 .buttonconfirm{
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 .delete{
@@ -84,6 +84,17 @@ h1{
             grid-template-columns: repeat(4, 1fr);
             margin: 2rem;
     }
+}
+
+.deleteBut{
+    background-color: rgb(66, 65, 65);
+    color: white;
+    box-shadow: 2px 2px 8px 2px white;
+    border-radius: 30px;
+    height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 

@@ -131,7 +131,7 @@ return(
         <div className='divpag'>
             {/* PAGINADO */}
             {currentPage  === 1 ? null : <button className='buttonpag' onClick={() => prevPage()}>Back</button>}
-            {currentPage < allCountries.length/countriesPerPage ? <button className='buttonpag' onClick={() => nextPage()}>Next</button> : <button className='buttonpag'>Back</button>}
+            {currentPage < allCountries.length/countriesPerPage ? <button className='buttonpag' onClick={() => nextPage()}>Next</button> : null}
         </div>
         <div className='allcards'>
             {currentCountries.length > 0 && Array.isArray(currentCountries) ? (currentCountries.map(c => {

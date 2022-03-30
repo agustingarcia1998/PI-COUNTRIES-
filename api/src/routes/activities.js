@@ -4,11 +4,20 @@ const { getDBactivities } = require ('../utils');
 const { Router } = require('express');
 const router = Router();
 
-
 router.get('/', async (req, res) => {
-    let activityDb = await getDBactivities()
-    res.status(200).send(activityDb)
-})
+    const { activity } = req.query;
+
+    if(activity){ 
+    let activities = await Activity.findAll({
+        where: {activity: activity}
+    })
+    res.send(activities)
+}})
+
+// router.get('/', async (req, res) => {
+//     let activityDb = await getDBactivities()
+//     res.status(200).send(activityDb)
+// })
 
 
 
