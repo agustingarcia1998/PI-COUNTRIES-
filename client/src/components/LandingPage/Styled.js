@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Div = styled.div`
-background-image: url('https://viajeconescalas.com/wp-content/uploads/2020/11/Viaje-con-Escalas-Quiénes-Somos.jpg');
+background-image: url('https://99px.ru/sstorage/53/2013/10/tmb_85009_9493.jpg');
 background-size: cover;
 height: 100vh;
 
